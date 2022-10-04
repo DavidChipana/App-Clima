@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://bootswatch.com/5/quartz/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body onload="onLoad()">
+    
+
+    <div id="container">
+
+       <div class="block">
+
+          <div id="locacion"></div>
+          <div id="fecha"></div>
+          <div id="descripcion"></div>
+      </div>
+      
+      <div class="block">
+
+
+        <div class="contenido-informacion">
+            Temperatura:
+            <div class="info" id="temperatura"></div>
+        </div>
+
+        <div class="contenido-informacion">
+            Precipitación
+            <div class="info" id="presion"></div>
+
+        </div>
+        <div class="contenido-informacion">
+                     Humedad:
+         <div class="info"id="humedad"></div>
+        </div>
+
+     </div>
+
+
+</div>
+
+
+
+<div  id="loader" class="loader">
+   Loading...
+</div>
+
+<script src="scripts.js"></script>
+</body>
+</html>
